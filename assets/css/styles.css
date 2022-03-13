@@ -35,6 +35,9 @@
   --small-font-size: .813rem;
   --smaller-font-size: .75rem;
 
+  /*======== Text Shadow ========*/
+  --text-shadow: 0.15rem 0.15rem #505050;
+
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
@@ -172,7 +175,7 @@ input {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   text-align: center;
-  text-transform: capitalize;
+  text-transform: none;
   margin-bottom: var(--mb-2);
 }
 
@@ -419,13 +422,27 @@ input {
   left: 1rem;
 }
 
+.discover__section__title {
+  font-size: var(--h2-font-size);
+  color: var(--title-color);
+  text-align: center;
+  text-transform: none;
+  margin-bottom: var(--mb-1);
+}
+
 .discover__title, 
 .discover__description {
   color: var(--white-color);
 }
 
+.discover__subscription {
+  text-align: center;
+  margin-bottom: var(--mb-1-25);
+}
+
 .discover__title {
   font-size: var(--h3-font-size);
+  text-shadow: var(--text-shadow);
   margin-bottom: var(--mb-0-25);
 }
 

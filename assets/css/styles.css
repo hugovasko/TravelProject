@@ -1,6 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -26,7 +26,7 @@
 
   /*========== Font and typography ==========*/
   --body-font: 'Playfair Display SC', serif;
-  --title-font: 'Rubik', sans-serif;
+  --title-font: 'Merriweather', serif;
   --biggest-font-size: 2.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -1057,6 +1057,6 @@ input {
     margin: 0;
   }
   .home__container, .home__img {
-    height: 640px;
+    height: 721px;
   }
 }
